@@ -8,12 +8,14 @@ int main(){
 
 	for(int i=0; i<n; i++){
 		for(int j=0;j<n;j++){
-			scanf("%f", &a[i][j]);
+			printf("a[%d][%d]", i, j);
+			scanf("%f\n", &a[i][j]);
 		}
 	}
 
 	for(int i=0; i<n; i++){
-		scanf("%f", &b[i]);
+		print("b[%d]=",i);
+		scanf("%f\n", &b[i]);
 	
 	}
 	//guass elimenation
